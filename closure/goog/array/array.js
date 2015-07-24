@@ -337,7 +337,7 @@ goog.array.map = goog.NATIVE_ARRAY_PROTOTYPES &&
  *     the value of the current array element, the current array index, and the
  *     array itself)
  *     function(previousValue, currentValue, index, array).
- * @param {?} val The initial value to pass into the function on the first call.
+ * @param {?=} val The initial value to pass into the function on the first call.
  * @param {S=} opt_obj  The object to be used as the value of 'this'
  *     within f.
  * @return {R} Result of evaluating f repeatedly across the values of the array.
